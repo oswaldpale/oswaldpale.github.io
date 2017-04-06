@@ -68,7 +68,7 @@ export class Content extends React.Component {
               <p className="bio">{this.state.bio}</p>
 
               <div className="container">
-                <button className="btn"><span>Profiles</span><i className="material-icons">public</i>
+                <button className="btn"><span>Profiles public</span><i className="material-icons"> </i>
                   <ul className="dropdown">
                     <li className="active">
                       <a href="https://www.npmjs.com/~oswaldpale" target="blank">NPM</a>
@@ -81,6 +81,20 @@ export class Content extends React.Component {
                     </li>
                     <li>
                       <a href="https://www.youtube.com/channel/UCVVXLHStP_tEdMFU0SPYp6g" target="blank">Youtube</a>
+                    </li>
+                  </ul>
+                </button>
+                
+                 <button className="btn "><span>Project</span><i className="material-icons"/>
+                  <ul className="dropdown">
+                    <li className="active">
+                      <a href="https://github.com/oswaldpale/iubi" target="blank">Iubi</a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/botpark" target="blank">Botpark</a>
+                    </li>
+                     <li>
+                      <a href="https://github.com/oswaldpale/ChatAndroid" target="blank">Chat Android</a>
                     </li>
                   </ul>
                 </button>
